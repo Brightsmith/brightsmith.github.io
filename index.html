@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-
-
-    <!-- <link rel="stylesheet/scss" href="style.css"> -->
-    <style>
-
+  <head>
+    <title>Brightsmith.io</title>
+  </head>
+  <style>
     body {
       background-image: url(background.png);
       background-repeat:no-repeat;
@@ -44,7 +43,37 @@
       text-align: center;
       color: white;
     }
-    </style>
+
+    #bottom-buttons {
+      width: -webkit-calc(100% - 6px);
+      height:70px;
+      position: absolute;
+      bottom: 0;
+      border: 3px solid #FFFFFF;
+
+    }
+    .button {
+      vertical-align: middle;
+      line-height: 200%;
+      font-size: 30px;
+      color: white;
+      position: absolute;
+      width: -webkit-calc(50%);
+      height: 70px;
+      border-right: 3px solid #FFFFFF;
+      background-color: rgba(255, 255, 255, 0.0);
+      -webkit-transition-property: background-color;
+      transition-property: background-color;
+      -webkit-transition-duration: .5s;
+      transition-duration: .5s;
+    }
+    .button:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+    .button:active {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+  </style>
 
   <body>
       <!-- Peter is an idiot. -->
@@ -52,6 +81,14 @@
         <h1>Hello World.</h1>
         <br/>
         <h3>It's Brightsmith.io</h3>
+      </div>
+      <div id="bottom-buttons">
+        <div class="button">
+          Resume
+        </div>
+        <div style="right: 0; border-right: 0;" class="button" onclick="location.href='https://github.com/Brightsmith'">
+          GitHub
+        </div>
       </div>
   </body>
 
