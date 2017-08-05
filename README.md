@@ -1,2 +1,2 @@
-# brightsmith.github.io
+# brightsmith.io
 Personal site to store my resume.
