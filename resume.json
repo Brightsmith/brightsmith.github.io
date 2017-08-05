@@ -1,0 +1,51 @@
+
+  var jobs = [{
+    "Company" : "Apple Inc.",
+    "startDate" : "2009",
+    "endDate" : null,
+    "role" : [{
+      "id" : "1",
+      "title" : "Genius",
+      "duration" : "2",
+      "desription" :
+        "This is a technical role where you must be able to perform in a fast paced environment. The main challenges are around handelling customer concerns and staying up to date with workflows and processes."
+      },
+      {
+        "id" : "2",
+        "title" : "Lead Genius",
+        "duration" : "2",
+        "desription" :
+          "This is still a technical role but you now have to be able to understand more about the business as a whole. Focuses remain on the customer but also includes your team around you."
+      },
+      {
+        "id" : "3",
+        "title" : "Manager",
+        "duration" : "3",
+        "desription" :
+          "The foundation of this role is around inspiring and motivating a team to do their best work every day. Challenge team members team members to bring out their best."
+      },
+      {
+        "id" : "4",
+        "title" : "Career Experience",
+        "duration" : "0.5",
+        "desription" :
+          "I was selected to be a part of the Software Engineering team for 6 months. During this time I was working on web development, mainly using frontend frameworks like React."
+      }]
+  }];
+
+  var education = [{
+      "id" : "1",
+      "type" : "highSchool",
+      "name" : "not_Telling",
+      "completed" : "2005",
+      "courses" : "Math Methods, Phychology, Physics, English and Biology"
+    },
+    {
+      "id" : "2",
+      "type" : "university",
+      "name": "The Royal Melbourne University of Information Technology",
+      "completed"  : "In Progress",
+      "courses" :
+        "Databases Concepts, Computer Systems, Programing, Software Engineering Fundermentals and Web Programming."
+    }
+  ]

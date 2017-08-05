@@ -2,94 +2,34 @@
 <html>
   <head>
     <title>Brightsmith.io</title>
+    <script src="resume.json"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <style>
-    body {
-      background-image: url(background.png);
-      background-repeat:no-repeat;
-      background-position: center center;
-      background-size: cover;
-      text-align: center;
-      font-family: "HelveticaNeue-Light";
-      margin: 0px;
-      width: 100%;
-      width: 100vw;
-      height: 100%;
-      height: 100vh;
-    }
-
-    h1 {
-      font-size: 68px;
-      color: #FFFFFF;
-      margin-bottom: 0;
-    }
-
-    h3{
-      font-size: 16px;
-      color: #FEFEFE;
-      font-weight: lighter;
-      margin: 0;
-    }
-
-    #container {
-      width: 100%;
-      width: 100vw;
-      height: 100%;
-      height: 100vh;
-    }
-
-    #title{
-      padding-top: 10%;
-      text-align: center;
-      color: white;
-    }
-
-    #bottom-buttons {
-      width: -webkit-calc(100% - 6px);
-      height:70px;
-      position: absolute;
-      bottom: 0;
-      border: 3px solid #FFFFFF;
-
-    }
-    .button {
-      vertical-align: middle;
-      line-height: 200%;
-      font-size: 30px;
-      color: white;
-      position: absolute;
-      width: -webkit-calc(50%);
-      height: 70px;
-      border-right: 3px solid #FFFFFF;
-      background-color: rgba(255, 255, 255, 0.0);
-      -webkit-transition-property: background-color;
-      transition-property: background-color;
-      -webkit-transition-duration: .5s;
-      transition-duration: .5s;
-    }
-    .button:hover {
-      background-color: rgba(255, 255, 255, 0.3);
-    }
-    .button:active {
-      background-color: rgba(255, 255, 255, 0.8);
-    }
-  </style>
 
   <body>
-      <!-- Peter is an idiot. -->
+      <!-- Creepy ( ͡° ͜ʖ ͡°) Pete -->
       <div id="title">
         <h1>Hello World.</h1>
         <br/>
         <h3>It's Brightsmith.io</h3>
       </div>
+
       <div id="bottom-buttons">
-        <div class="button">
+        <div id="resumeButton" class="button" onclick="showResume();">
           Resume
         </div>
         <div style="right: 0; border-right: 0;" class="button" onclick="location.href='https://github.com/Brightsmith'">
           GitHub
         </div>
       </div>
+
+      <script>
+        function showResume() {
+          console.warn(jobs);
+        };
+        showResume();
+      </script>
+
   </body>
 
 </html>
