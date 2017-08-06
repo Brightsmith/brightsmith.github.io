@@ -67,7 +67,7 @@ h3
 {
     position: absolute;
 
-    width: -webkit-calc(50%);
+    width: 50%;
     height: 70px;
 
     -webkit-transition-duration: .5s;

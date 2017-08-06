@@ -15,7 +15,7 @@
       </div>
 
       <div id="bottom-buttons">
-        <div id="resumeButton" class="button" onclick="showResume();">
+        <div id="resumeButton" class="button" onclick='showResume()'>
           Resume
         </div>
         <div style="right: 0; border-right: 0;" class="button" onclick="location.href='https://github.com/Brightsmith'">
@@ -25,11 +25,11 @@
 
       <script>
         function showResume() {
-          console.warn(jobs);
+          console.warn("Jobs", jobs);
+          console.warn("Education", education);
+          console.warn("General Info.", information);
         };
-        showResume();
       </script>
-
   </body>
 
 </html>
