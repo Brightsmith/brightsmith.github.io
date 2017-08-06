@@ -9,7 +9,7 @@
   <body>
       <!-- Creepy ( ͡° ͜ʖ ͡°) Pete -->
       <div id="title">
-        <h1>Hello World.</h1>
+        <h1>Hello Ed.</h1>
         <br/>
         <h3>It's Brightsmith.io</h3>
       </div>
@@ -24,11 +24,24 @@
       </div>
 
       <script>
+        var resume = true;
+        var hello = document.getElementById('title');
+
         function showResume() {
-          console.warn("Jobs", jobs);
-          console.warn("Education", education);
-          console.warn("General Info.", information);
+          if (resume==true){
+            // var myElement = document.querySelector("#superman");
+            hello.style.color = "rgba(255,255,255,0);";
+            console.warn("Jobs", jobs);
+            console.warn("Education", education);
+            console.warn("General Info.", information);
+            resume = false;
+          }
+          // else{
+          //   hello.style.color = "rgba(255,255,255,1);";
+          // }
+
         };
+
       </script>
   </body>
 
